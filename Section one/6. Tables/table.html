@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Working With Table</title>
+</head>
+<body>
+<h1>Working With Tables</h1>
+<h3>What is a Table?</h3>
+<p>A table represents information in a grid format. Examples of tables include financial reports, TV schedules, and sports results.</p>
+<h3>basic structure of table</h3>
+<table border="1">
+    <tr>
+        <td>Row 1 Column 1</td>
+        <td>Row 1 Column 2</td>
+        <td>Row 1 Column 3</td>
+        <td>Row 1 Column 4</td>
+    </tr>
+    <tr>
+        <td>Row 2 Column 1</td>
+        <td>Row 2 Column 2</td>
+        <td>Row 2 Column 3</td>
+        <td>Row 2 Column 4</td>
+    </tr>
+    <tr>
+        <td>Row 3 Column 1</td>
+        <td>Row 3 Column 2</td>
+        <td>Row 3 Column 3</td>
+        <td>Row 3 Column 4</td>
+    </tr>
+    <tr>
+        <td>Row 4 Column 1</td>
+        <td>Row 4 Column 2</td>
+        <td>Row 4 Column 3</td>
+        <td>Row 4 Column 4</td>
+    </tr>
+</table>
+<h3>Table Heading</h3>
+<table border="1">
+    <tr>
+        <th></th>
+        <th scope="col">Saturday</th>
+        <th scope="col">Sunday</th>
+    </tr>
+    <tr>
+        <th scope="row">Ticket Sold</th>
+        <td>120</td>
+        <td>135</td>
+    </tr>
+    <tr>
+        <th scope="row">Total Sales</th>
+        <td>600</td>
+        <td>735</td>
+    </tr>
+</table>
+<h3>Spaning Columns</h3>
+<table border="1">
+    <tr>
+        <th></th>
+        <th scope="col">9am</th>
+        <th scope="col">10am</th>
+        <th scope="col">11am</th>
+        <th scope="col">12am</th>
+    </tr>
+    <tr>
+        <th scope="row">Monday</th>
+        <td colspan="2">Geography</td>
+        <td>Maths</td>
+        <td>Arts</td>
+    </tr>
+    <tr>
+        <th scope="row">Tuesday</th>
+        <td colspan="3">Gym</td>
+        <td>Home Ec</td>
+    </tr>
+</table>
+<h3>Spaning Rows</h3>
+<table border="1">
+    <tr>
+        <th></th>
+        <th scope="col">ABC</th>
+        <th scope="col">BBC</th>
+        <th scope="col">CNN</th>
+    </tr>
+    <tr>
+        <th scope="row">6pm - 7pm</th>
+        <td rowspan="2">Movie</td>
+        <td>Comedy</td>
+        <td>News</td>
+    </tr>
+    <tr>
+        <th scope="row">7pm - 8pm</th>
+        <td>Sports</td>
+        <td>Current Affairs</td>
+    </tr>
+</table>
+<h3>Long Tables</h3>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Date</th>
+        <th>Income</th>
+        <th>Expenditure</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>1st Feb</th>
+        <td>250</td>
+        <td>36</td>
+    </tr>
+    <tr>
+        <th>2nd Feb</th>
+        <td>50</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <th>3rd Feb</th>
+        <td>200</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <th>4th Feb</th>
+        <td>250</td>
+        <td>70</td>
+    </tr>
+    <tr>
+        <th>5th Feb</th>
+        <td>50</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <th>6th Feb</th>
+        <td>250</td>
+        <td>36</td>
+    </tr>
+    <tr>
+        <th>7th Feb</th>
+        <td>50</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <th>8th Feb</th>
+        <td>200</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <th>9th Feb</th>
+        <td>250</td>
+        <td>70</td>
+    </tr>
+    <tr>
+        <th>10th Feb</th>
+        <td>50</td>
+        <td>30</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td></td>
+        <td>1600</td>
+        <td>360</td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+</html>
